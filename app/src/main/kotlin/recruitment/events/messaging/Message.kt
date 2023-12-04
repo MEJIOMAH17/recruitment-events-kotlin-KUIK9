@@ -1,6 +1,5 @@
 package recruitment.events.messaging
 
-
 @JvmRecord
 data class Message<T : Record>(val event: T, val offset: Long) {
     /*
